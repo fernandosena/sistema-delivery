@@ -51,40 +51,6 @@
 
 <!-- Contact information-->
 <section class="section section-md section-first bg-default">
-<div class="container">
-    <div class="row row-30 justify-content-center">
-    <div class="col-sm-8 col-md-6 col-lg-4">
-        <article class="box-contacts">
-        <div class="box-contacts-body">
-            <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
-            <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a target="_blank" href="https://api.whatsapp.com/send/?phone=<?= CONF_SITE_WHATSAPP_NUMBER ?>"><?= CONF_SITE_WHATSAPP_FMT ?></a></p>
-        </div>
-        </article>
-    </div>
-    <div class="col-sm-8 col-md-6 col-lg-4">
-        <article class="box-contacts">
-        <div class="box-contacts-body">
-            <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href="#"><?= CONF_SITE_ADDR_STREET.", Nº ".CONF_SITE_ADDR_NUMBER.", ".CONF_SITE_ADDR_COMPLEMENT.", ".CONF_SITE_ADDR_CITY, " - ".CONF_SITE_ADDR_STATE.", ".CONF_SITE_ADDR_ZIPCODE ?></a></p>
-        </div>
-        </article>
-    </div>
-    <div class="col-sm-8 col-md-6 col-lg-4">
-        <article class="box-contacts">
-        <div class="box-contacts-body">
-            <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
-            <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href="mailto:<?= CONF_SITE_EMAIL ?>"><?= CONF_SITE_EMAIL ?></a></p>
-        </div>
-        </article>
-    </div>
-    </div>
-</div>
-</section>
-<!-- Contact information-->
-<section class="section section-md section-first bg-default">
     <div class="container">
         <div class="row row-30 justify-content-center">
         <div class="col-sm-8 col-md-6 col-lg-4">
@@ -111,7 +77,7 @@
             <div class="box-contacts-body">
                 <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
                 <div class="box-contacts-decor"></div>
-                <p class="box-contacts-link"><a class="link-email" href="mailto:<?= CONF_SITE_EMAIL ?>"><?= CONF_SITE_EMAIL ?></a></p>
+                <p class="box-contacts-link"><a class="link-email" href="mailto:<?= CONF_SITE_EMAIL ?>">E-mail de contato</a></p>
                 
             </div>
             </article>

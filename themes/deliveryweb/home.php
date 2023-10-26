@@ -57,87 +57,29 @@
             </div>
         <div class="col-md-5 col-lg-6">
             <div class="row row-30 justify-content-center">
+                <?php for($i=1; $i<=4; $i++): ?>
                 <div class="col-sm-6 col-md-12 col-lg-6">
                     <div class="oh-desktop">
-                    <!-- Product-->
-                    <article class="product product-2 box-ordered-item wow slideInRight" data-wow-delay="0s">
-                        <div class="unit flex-row flex-lg-column">
-                        <div class="unit-left">
-                            <div class="product-figure"><img src="images/product-5-270x280.png" alt="" width="270" height="280"/>
-                            <div class="product-button"><a class="button button-md button-white button-ujarak" href="#">Add to cart</a></div>
+                        <!-- Product-->
+                        <article class="product product-2 box-ordered-item wow slideInRight" data-wow-delay="0s">
+                            <div class="unit flex-row flex-lg-column">
+                                <div class="unit-left">
+                                    <div class="product-figure"><img src="<?= image(theme("assets/images/produtos/p{$i}.jpeg"), 270, 280) ?>" alt="" width="270" height="280"/>
+                                    <div class="product-button"><a class="button button-md button-white button-ujarak" href="#">Adicionar ao carrinho</a></div>
+                                    </div>
+                                </div>
+                                <div class="unit-body">
+                                    <h6 class="product-title"><a href="#"><?= "Produto {$i}"?></a></h6>
+                                    <div class="product-price-wrap">
+                                    <div class="product-price product-price-old">R$ 59,00</div>
+                                    <div class="product-price">R$ 28,00</div>
+                                    </div><a class="button button-sm button-secondary button-ujarak" href="#">Adicionar ao carrinho</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="unit-body">
-                            <h6 class="product-title"><a href="#">Avocados</a></h6>
-                            <div class="product-price-wrap">
-                            <div class="product-price product-price-old">$59.00</div>
-                            <div class="product-price">$28.00</div>
-                            </div><a class="button button-sm button-secondary button-ujarak" href="#">Add to cart</a>
-                        </div>
-                        </div>
-                    </article>
+                        </article>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-12 col-lg-6">
-                    <div class="oh-desktop">
-                    <!-- Product-->
-                    <article class="product product-2 box-ordered-item wow slideInLeft" data-wow-delay="0s">
-                        <div class="unit flex-row flex-lg-column">
-                        <div class="unit-left">
-                            <div class="product-figure"><img src="images/product-6-270x280.png" alt="" width="270" height="280"/>
-                            <div class="product-button"><a class="button button-md button-white button-ujarak" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                        <div class="unit-body">
-                            <h6 class="product-title"><a href="#">Corn</a></h6>
-                            <div class="product-price-wrap">
-                            <div class="product-price">$27.00</div>
-                            </div><a class="button button-sm button-secondary button-ujarak" href="#">Add to cart</a>
-                        </div>
-                        </div>
-                    </article>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-12 col-lg-6">
-                    <div class="oh-desktop">
-                    <!-- Product-->
-                    <article class="product product-2 box-ordered-item wow slideInLeft" data-wow-delay="0s">
-                        <div class="unit flex-row flex-lg-column">
-                        <div class="unit-left">
-                            <div class="product-figure"><img src="images/product-8-270x280.png" alt="" width="270" height="280"/>
-                            <div class="product-button"><a class="button button-md button-white button-ujarak" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                        <div class="unit-body">
-                            <h6 class="product-title"><a href="#">Artichokes</a></h6>
-                            <div class="product-price-wrap">
-                            <div class="product-price">$23.00</div>
-                            </div><a class="button button-sm button-secondary button-ujarak" href="#">Add to cart</a>
-                        </div>
-                        </div>
-                    </article>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-12 col-lg-6">
-                    <div class="oh-desktop">
-                    <!-- Product-->
-                    <article class="product product-2 box-ordered-item wow slideInRight" data-wow-delay="0s">
-                        <div class="unit flex-row flex-lg-column">
-                        <div class="unit-left">
-                            <div class="product-figure"><img src="images/product-7-270x280.png" alt="" width="270" height="280"/>
-                            <div class="product-button"><a class="button button-md button-white button-ujarak" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                        <div class="unit-body">
-                            <h6 class="product-title"><a href="#">Broccoli</a></h6>
-                            <div class="product-price-wrap">
-                            <div class="product-price">$25.00</div>
-                            </div><a class="button button-sm button-secondary button-ujarak" href="#">Add to cart</a>
-                        </div>
-                        </div>
-                    </article>
-                    </div>
-                </div>
+                <?php endfor; ?>
             </div>
         </div>
         </div>

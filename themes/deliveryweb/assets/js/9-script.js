@@ -1,5 +1,7 @@
 "use strict";
 (function () {
+	$('#telefone').mask('(00) 0 0000-0000');
+
 	// Global variables
 	var userAgent = navigator.userAgent.toLowerCase(),
 		initialDate = new Date(),
@@ -352,19 +354,19 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "Campo obrigatório"
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "O e-mail informado não é válido"
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Somente números são permitidos"
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "Selecione uma opção"
 				}
 			];
 
