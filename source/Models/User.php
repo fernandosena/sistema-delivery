@@ -5,10 +5,10 @@ namespace Source\Models;
 use Source\Core\Model;
 
 /**
- * FSPHP | Class User Active Record Pattern
+ * DELIVERY | Class User Active Record Pattern
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
- * @package Source\Models
+ * @author Fernando C. Sena <fernandocarvalho.sena@gmail.com>
+ * @package Source\Core
  */
 class User extends Model
 {

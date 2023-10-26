@@ -7,10 +7,10 @@ use CoffeeCode\Uploader\Image;
 use CoffeeCode\Uploader\Media;
 
 /**
- * FSPHP | Class Upload
+ * DELIVERY | Class Upload
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
- * @package Source\Support
+ * @author Fernando C. Sena <fernandocarvalho.sena@gmail.com>
+ * @package Source\Core
  */
 class Upload
 {

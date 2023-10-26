@@ -5,10 +5,10 @@ namespace Source\Support;
 use CoffeeCode\Cropper\Cropper;
 
 /**
- * FSPHP | Class Thumb
+ * DELIVERY | Class Thumb
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
- * @package Source\Support
+ * @author Fernando C. Sena <fernandocarvalho.sena@gmail.com>
+ * @package Source\Core
  */
 class Thumb
 {

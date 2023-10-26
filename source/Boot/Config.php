@@ -16,35 +16,35 @@ define("CONF_URL_TEST", "http://localhost/delivery");
 /**
  * SITE
  */
-define("CONF_SITE_NAME", "CaféControl");
-define("CONF_SITE_TITLE", "Gerencie suas contas com o melhor café");
+define("CONF_SITE_NAME", "Burguer Freitas");
+define("CONF_SITE_TITLE", "O melhor hamburge da região");
 define("CONF_SITE_DESC",
-    "O CafeControl é um gerenciador de contas simples, poderoso e gratuito. O prazer de tomar um café e ter o controle total de suas contas.");
+    "Venha conhecer o melhor lanche que você já esperimentou na vida, barato rapido e gostoso como sempre!");
 define("CONF_SITE_LANG", "pt_BR");
-define("CONF_SITE_DOMAIN", "upinside.com.br");
+define("CONF_SITE_DOMAIN", "burguerfreitas.com.br");
 define("CONF_SITE_ADDR_STREET", "SC 406 - Rod. Drº Antônio Luiz Moura Gonzaga");
 define("CONF_SITE_ADDR_NUMBER", "3339");
 define("CONF_SITE_ADDR_COMPLEMENT", "Bloco A, Sala 208");
 define("CONF_SITE_ADDR_CITY", "Florianópolis");
 define("CONF_SITE_ADDR_STATE", "SC");
 define("CONF_SITE_ADDR_ZIPCODE", "88048-301");
-define("CONF_SITE_WHATSAPP_NUMBER", "5587999999999");
-define("CONF_SITE_WHATSAPP_FMT", "+55 (87) 9 9999-9999");
+define("CONF_SITE_WHATSAPP_NUMBER", "5599999999999");
+define("CONF_SITE_WHATSAPP_FMT", "+55 (99) 9 9999-9999");
 define("CONF_SITE_EMAIL", "fernandocarvalho.sena@gmail.com");
 
 /**
  * SOCIAL
  */
-define("CONF_SOCIAL_TWITTER_CREATOR", "@creator");
-define("CONF_SOCIAL_TWITTER_PUBLISHER", "@creator");
-define("CONF_SOCIAL_FACEBOOK_APP", "5555555555");
-define("CONF_SOCIAL_FACEBOOK_PAGE", "pagename");
-define("CONF_SOCIAL_FACEBOOK_AUTHOR", "author");
-define("CONF_SOCIAL_GOOGLE_PAGE", "5555555555");
-define("CONF_SOCIAL_GOOGLE_AUTHOR", "5555555555");
-define("CONF_SOCIAL_INSTAGRAM_PAGE", "insta");
-define("CONF_SOCIAL_PINTEREST_PAGE", "insta");
-define("CONF_SOCIAL_YOUTUBE_PAGE", "youtube");
+define("CONF_SOCIAL_TWITTER_CREATOR", "");
+define("CONF_SOCIAL_TWITTER_PUBLISHER", "");
+define("CONF_SOCIAL_FACEBOOK_APP", "");
+define("CONF_SOCIAL_FACEBOOK_PAGE", "");
+define("CONF_SOCIAL_FACEBOOK_AUTHOR", "");
+define("CONF_SOCIAL_GOOGLE_PAGE", "");
+define("CONF_SOCIAL_GOOGLE_AUTHOR", "");
+define("CONF_SOCIAL_INSTAGRAM_PAGE", "");
+define("CONF_SOCIAL_PINTEREST_PAGE", "");
+define("CONF_SOCIAL_YOUTUBE_PAGE", "");
 
 /**
  * DATES
@@ -90,9 +90,9 @@ define("CONF_IMAGE_QUALITY", ["jpg" => 75, "png" => 5]);
 define("CONF_MAIL_HOST", "smtp.sendgrid.net");
 define("CONF_MAIL_PORT", "587");
 define("CONF_MAIL_USER", "apikey");
-define("CONF_MAIL_PASS", "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");
-define("CONF_MAIL_SENDER", ["name" => "Robson V. Leite", "address" => "sender@email.com"]);
-define("CONF_MAIL_SUPPORT", "sender@support.com");
+define("CONF_MAIL_PASS", "");
+define("CONF_MAIL_SENDER", ["name" => "Burguer Freitas", "address" => "no-replay@burguerfreitas.com.br"]);
+define("CONF_MAIL_SUPPORT", "sac@burguerfreitas.com.br");
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);
 define("CONF_MAIL_OPTION_AUTH", true);

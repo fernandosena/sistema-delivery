@@ -5,10 +5,10 @@ namespace Source\Support;
 use CoffeeCode\Paginator\Paginator;
 
 /**
- * FSPHP | Class Pager
+ * DELIVERY | Class Pager
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
- * @package Source\Support
+ * @author Fernando C. Sena <fernandocarvalho.sena@gmail.com>
+ * @package Source\Core
  */
 class Pager extends Paginator
 {
