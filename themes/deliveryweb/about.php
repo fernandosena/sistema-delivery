@@ -76,7 +76,7 @@
             <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
             <!-- Quote Lisa-->
             <article class="quote-lisa">
-                <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/user-16-100x100.jpg" alt="" width="100" height="100"/></a>
+                <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="<?= image(theme("assets/images/depoimentos/d1.jpeg"), 100, 100) ?>" alt="" width="100" height="100"/></a>
                 <div class="quote-lisa-text">
                     <p class="q">Eu sou um cliente fiel da <?= CONF_SITE_NAME ?> e não consigo resistir aos seus lanches deliciosos. Cada mordida é uma festa para o meu paladar. O atendimento rápido e a qualidade constante me fazem voltar sempre que estou com fome.</p>
                 </div>
@@ -86,7 +86,7 @@
             </article>
             <!-- Quote Lisa-->
             <article class="quote-lisa">
-                <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/user-17-100x100.jpg" alt="" width="100" height="100"/></a>
+                <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="<?= image(theme("assets/images/depoimentos/d2.jpeg"), 100, 100) ?>" alt="" width="100" height="100"/></a>
                 <div class="quote-lisa-text">
                     <p class="q">Quando estou com vontade de um lanche saboroso, a <?= CONF_SITE_NAME ?> é o meu destino certo. Eu experimentei o sanduíche vegetariano e fiquei surpresa com o quão saboroso e saudável ele era. É ótimo ver opções para todos os gostos.</p>
                 </div>
@@ -96,7 +96,7 @@
             </article>
             <!-- Quote Lisa-->
             <article class="quote-lisa">
-                <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/user-18-100x100.jpg" alt="" width="100" height="100"/></a>
+                <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="<?= image(theme("assets/images/depoimentos/d3.jpeg"), 100, 100) ?>" alt="" width="100" height="100"/></a>
                 <div class="quote-lisa-text">
                     <p class="q">Os lanches da <?= CONF_SITE_NAME ?> são simplesmente incríveis! Eu provei o hambúrguer especial e, sério, foi uma explosão de sabores. A carne suculenta, os ingredientes frescos e o atendimento impecável tornaram a minha visita memorável</p>
                 </div>
@@ -119,79 +119,49 @@
     <!-- Owl Carousel-->
     <div class="owl-carousel owl-classic owl-timeline" data-items="1" data-md-items="2" data-lg-items="3" data-xl-items="4" data-margin="30" data-stage-padding="15" data-xxl-stage-padding="0" data-autoplay="true" data-nav="true" data-dots="true">
         <div class="owl-item">
-        <!-- Thumbnail Classic-->
-        <article class="thumbnail thumbnail-mary thumbnail-md">
-            <div class="thumbnail-mary-figure"><img src="images/project-1-420x308.jpg" alt="" width="420" height="308"/>
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+                <div class="thumbnail-mary-figure"><img src="<?= image(theme("assets/images/historia/cozinheiro-de-vista-lateral.jpg"), 420, 308) ?>" alt="" width="420" height="308"/>
+                </div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= image(theme("assets/images/historia/cozinheiro-de-vista-lateral.jpg"), 750, 750) ?>" data-lightgallery="item"><img src="<?= image(theme("assets/images/historia/cozinheiro-de-vista-lateral.jpg"), 420, 308) ?>" alt="" width="420" height="308"/></a>
+                </div>
+            </article>
+            <div class="thumbnail-mary-description">
+                <h5 class="thumbnail-mary-project"><a href="#">Amor pelos sabores</a></h5><span class="thumbnail-mary-decor"></span>
+                <h5 class="thumbnail-mary-time">
+                <time datetime="1999">1999</time>
+                </h5>
             </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-11-800x1200.jpg" data-lightgallery="item"><img src="images/project-1-420x308.jpg" alt="" width="420" height="308"/></a>
-            </div>
-        </article>
-        <div class="thumbnail-mary-description">
-            <h5 class="thumbnail-mary-project"><a href="#">Farm Establishment</a></h5><span class="thumbnail-mary-decor"></span>
-            <h5 class="thumbnail-mary-time">
-            <time datetime="1999">1999</time>
-            </h5>
-        </div>
-        </div>
-        <div class="owl-item">
-        <!-- Thumbnail Classic-->
-        <article class="thumbnail thumbnail-mary thumbnail-md">
-            <div class="thumbnail-mary-figure"><img src="images/project-2-420x308.jpg" alt="" width="420" height="308"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-5-800x1200.jpg" data-lightgallery="item"><img src="images/project-2-420x308.jpg" alt="" width="420" height="308"/></a>
-            </div>
-        </article>
-        <div class="thumbnail-mary-description">
-            <h5 class="thumbnail-mary-project"><a href="#">New Partners</a></h5><span class="thumbnail-mary-decor"></span>
-            <h5 class="thumbnail-mary-time">
-            <time datetime="2005">2005</time>
-            </h5>
-        </div>
         </div>
         <div class="owl-item">
-        <!-- Thumbnail Classic-->
-        <article class="thumbnail thumbnail-mary thumbnail-md">
-            <div class="thumbnail-mary-figure"><img src="images/project-3-420x308.jpg" alt="" width="420" height="308"/>
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+                <div class="thumbnail-mary-figure"><img src="<?= image(theme("assets/images/historia/garcom-feliz-segurando.jpg"), 420, 308) ?>" alt="" width="420" height="308"/>
+                </div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= image(theme("assets/images/historia/garcom-feliz-segurando.jpg"), 750, 750) ?>" data-lightgallery="item"><img src="<?= image(theme("assets/images/historia/garcom-feliz-segurando.jpg"), 420, 308) ?>" alt="" width="420" height="308"/></a>
+                </div>
+            </article>
+            <div class="thumbnail-mary-description">
+                <h5 class="thumbnail-mary-project"><a href="#">Mostrando os pratos na comunidade</a></h5><span class="thumbnail-mary-decor"></span>
+                <h5 class="thumbnail-mary-time">
+                <time datetime="2005">2005</time>
+                </h5>
             </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-4-800x1200.jpg" data-lightgallery="item"><img src="images/project-3-420x308.jpg" alt="" width="420" height="308"/></a>
-            </div>
-        </article>
-        <div class="thumbnail-mary-description">
-            <h5 class="thumbnail-mary-project"><a href="#">Opening Our Online Store</a></h5><span class="thumbnail-mary-decor"></span>
-            <h5 class="thumbnail-mary-time">
-            <time datetime="2010">2010</time>
-            </h5>
-        </div>
-        </div>
-        <div class="owl-item">
-        <!-- Thumbnail Classic-->
-        <article class="thumbnail thumbnail-mary thumbnail-md">
-            <div class="thumbnail-mary-figure"><img src="images/project-4-420x308.jpg" alt="" width="420" height="308"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-3-800x1200.jpg" data-lightgallery="item"><img src="images/project-4-420x308.jpg" alt="" width="420" height="308"/></a>
-            </div>
-        </article>
-        <div class="thumbnail-mary-description">
-            <h5 class="thumbnail-mary-project"><a href="#">Farming Industry Leader</a></h5><span class="thumbnail-mary-decor"></span>
-            <h5 class="thumbnail-mary-time">
-            <time datetime="2013">2013</time>
-            </h5>
-        </div>
         </div>
         <div class="owl-item">
-        <!-- Thumbnail Classic-->
-        <article class="thumbnail thumbnail-mary thumbnail-md">
-            <div class="thumbnail-mary-figure"><img src="images/project-5-420x308.jpg" alt="" width="420" height="308"/>
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+                <div class="thumbnail-mary-figure"><img src="<?= image(theme("assets/images/historia/uma-sala-de-restaurante.jpg"), 420, 308) ?>" alt="" width="420" height="308"/>
+                </div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= image(theme("assets/images/historia/uma-sala-de-restaurante.jpg"), 750, 750) ?>" data-lightgallery="item"><img src="<?= image(theme("assets/images/historia/uma-sala-de-restaurante.jpg"), 420, 308) ?>" alt="" width="420" height="308"/></a>
+                </div>
+            </article>
+            <div class="thumbnail-mary-description">
+                <h5 class="thumbnail-mary-project"><a href="#">Criação do primeiro restaurante</a></h5><span class="thumbnail-mary-decor"></span>
+                <h5 class="thumbnail-mary-time">
+                <time datetime="2010">2010</time>
+                </h5>
             </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img src="images/project-5-420x308.jpg" alt="" width="420" height="308"/></a>
-            </div>
-        </article>
-        <div class="thumbnail-mary-description">
-            <h5 class="thumbnail-mary-project"><a href="#">Farming Innovations</a></h5><span class="thumbnail-mary-decor"></span>
-            <h5 class="thumbnail-mary-time">
-            <time datetime="2019">2019</time>
-            </h5>
-        </div>
         </div>
     </div>
 </section>

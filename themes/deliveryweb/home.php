@@ -100,40 +100,40 @@
 
 <!-- About us-->
 <section class="section">
-<div class="parallax-container" data-parallax-img="images/bg-parallax-2.jpg">
+<div class="parallax-container" data-parallax-img="<?= image(theme("assets/images/bg-parallax-2.jpg"), 1920, 701)?>">
     <div class="parallax-content section-xl context-dark bg-overlay-68">
-    <div class="container">
-        <div class="row row-lg row-50 justify-content-center border-classic border-classic-big">
-        <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay="0s">
-            <div class="counter-creative">
-            <div class="counter-creative-number"><span class="counter">12</span><span class="icon counter-creative-icon fl-bigmug-line-trophy55"></span>
+        <div class="container">
+            <div class="row row-lg row-50 justify-content-center border-classic border-classic-big">
+            <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay="0s">
+                <div class="counter-creative">
+                <div class="counter-creative-number"><span class="counter">12</span><span class="icon counter-creative-icon fl-bigmug-line-trophy55"></span>
+                </div>
+                <h6 class="counter-creative-title">Premiações</h6>
+                </div>
             </div>
-            <h6 class="counter-creative-title">Awards</h6>
+            <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".1s">
+                <div class="counter-creative">
+                <div class="counter-creative-number"><span class="counter">2</span><span class="symbol"></span><span class="icon counter-creative-icon fl-bigmug-line-up104"></span>
+                </div>
+                <h6 class="counter-creative-title">Produtos</h6>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
+                <div class="counter-creative">
+                <div class="counter-creative-number"><span class="counter">679</span><span class="icon counter-creative-icon fl-bigmug-line-sun81"></span>
+                </div>
+                <h6 class="counter-creative-title">Clientes Satisfeitos</h6>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".3s">
+                <div class="counter-creative">
+                <div class="counter-creative-number"><span class="counter">13</span><span class="icon counter-creative-icon fl-bigmug-line-user143"></span>
+                </div>
+                <h6 class="counter-creative-title">Lojas</h6>
+                </div>
+            </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".1s">
-            <div class="counter-creative">
-            <div class="counter-creative-number"><span class="counter">2</span><span class="symbol">k</span><span class="icon counter-creative-icon fl-bigmug-line-up104"></span>
-            </div>
-            <h6 class="counter-creative-title">Products</h6>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
-            <div class="counter-creative">
-            <div class="counter-creative-number"><span class="counter">679</span><span class="icon counter-creative-icon fl-bigmug-line-sun81"></span>
-            </div>
-            <h6 class="counter-creative-title">Happy Clients</h6>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".3s">
-            <div class="counter-creative">
-            <div class="counter-creative-number"><span class="counter">13</span><span class="icon counter-creative-icon fl-bigmug-line-user143"></span>
-            </div>
-            <h6 class="counter-creative-title">Farmers</h6>
-            </div>
-        </div>
-        </div>
-    </div>
     </div>
 </div>
 

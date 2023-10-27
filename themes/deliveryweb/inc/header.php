@@ -101,12 +101,8 @@
                 </div>
                 <div class="rd-navbar-project-content rd-navbar-modern-project-content">
                 <div>
-                    <p>We are always ready to provide you with fresh organic products for your home or office. Contact us to find out how we can help you.</p>
+                    <p>Estamos sempre prontos para lhe fornecer produtos orgânicos frescos para sua casa ou escritório. Entre em contato conosco para saber como podemos ajudá-lo.</p>
                     <div class="heading-6 subtitle">Siga-nos</div>
-                    <div class="row row-10 gutters-10">
-                    <div class="col-12"><img src="images/home-sidebar-394x255.jpg" alt="" width="394" height="255"/>
-                    </div>
-                    </div>
                     <ul class="rd-navbar-modern-contacts">
                     <li>
                         <div class="unit unit-spacing-sm">
