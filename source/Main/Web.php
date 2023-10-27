@@ -493,7 +493,8 @@ class Web extends Controller
             "data" => (object)[
                 "title" => "Falta pouco! Confirme seu cadastro.",
                 "desc" => "Enviamos um link de confirmação para seu e-mail. Acesse e siga as instruções para concluir seu cadastro e comece a controlar com o CaféControl",
-                "image" => theme("/assets/images/optin-confirm.jpg")
+                "linkTitle" => "Acessar minha conta!",
+                "link" => url("entrar")
             ]
         ]);
     }
