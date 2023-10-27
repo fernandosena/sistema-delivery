@@ -10,13 +10,13 @@
                         <?= csrf_input(); ?>
                         <div class="wrap-input100 validate-input">
                             <span class="label-input100">E-mail</span>
-                            <input class="input100" type="email" name="username"
+                            <input class="input100" type="email" name="email"
                             placeholder="Seu e-mail">
                             <span class="focus-input100"></span>
                         </div>
                         <div class="wrap-input100 validate-input">
                             <span class="label-input100">Senha</span>
-                            <input class="input100" type="password" name="pass" placeholder="Sua senha">
+                            <input class="input100" type="password" name="password" placeholder="Sua senha">
                             <span class="focus-input100 password"></span>
                         </div>
                         <div class="text-right p-t-8 p-b-31">

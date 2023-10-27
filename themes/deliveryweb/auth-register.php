@@ -12,37 +12,37 @@
                             <div class="wrap-input50 validate-input">
                                 <span class="label-input100">Nome</span>
                                 <input class="input100" type="text" name="first_name"
-                                placeholder="Nome">
+                                placeholder="Nome" data-constraints="@Required">
                                 <span class="focus-input100"></span>
                             </div>
                             <div class="wrap-input50 validate-input">
                                 <span class="label-input100">Sobrenome</span>
                                 <input class="input100" type="text" name="last_name"
-                                placeholder="Sobrenome">
+                                placeholder="Sobrenome" data-constraints="@Required">
                                 <span class="focus-input100"></span>
                             </div>
                         </div>
                         <div class="wrap-input100 validate-input">
                             <span class="label-input100">E-mail</span>
                             <input class="input100" type="email" name="email"
-                            placeholder="Seu e-mail">
-                            <span class="focus-input100"></span>
+                            placeholder="Seu e-mail" data-constraints="@Email @Required">
+                            <span class="focus-input100 email"></span>
                         </div>
                         <div class="wrap-input100 validate-input">
                             <span class="label-input100">Whatsapp</span>
-                            <input class="input100" d="telefone" type="text" name="whatsapp"
+                            <input class="input100" id="telefone" type="text" name="phone"
                             placeholder="Seu whatsapp">
-                            <span class="focus-input100"></span>
+                            <span class="focus-input100 whatsapp"></span>
                         </div>
                         <div class="g-flex">
                             <div class="wrap-input50 validate-input">
                                 <span class="label-input100">Senha</span>
-                                <input class="input100" type="password" name="pass" placeholder="Sua senha">
+                                <input class="input100" type="password" name="password" placeholder="Sua senha" data-constraints="@Required">
                                 <span class="focus-input100 password"></span>
                             </div>
                             <div class="wrap-input50 validate-input">
                                 <span class="label-input100">Senha novamente</span>
-                                <input class="input100" type="password" name="repass" placeholder="Senha novamente">
+                                <input class="input100" type="password" name="repassword" placeholder="Senha novamente" data-constraints="@Required">
                                 <span class="focus-input100 password"></span>
                             </div>
                         </div>

@@ -54,7 +54,7 @@ class Auth extends Model
             return false;
         }
 
-        $view = new View(__DIR__ . "/../../shared/views/email");
+        /*$view = new View(__DIR__ . "/../../shared/views/email");
         $message = $view->render("confirm", [
             "first_name" => $user->first_name,
             "confirm_link" => url("/obrigado/" . base64_encode($user->email))
@@ -65,7 +65,7 @@ class Auth extends Model
             $message,
             $user->email,
             "{$user->first_name} {$user->last_name}"
-        )->send();
+        )->send();*/
 
         return true;
     }

@@ -122,6 +122,7 @@ class User extends Model
             }
 
             $userId = $this->create($this->safe());
+            
             if ($this->fail()) {
                 $this->message->error("Erro ao cadastrar, verifique os dados");
                 return false;

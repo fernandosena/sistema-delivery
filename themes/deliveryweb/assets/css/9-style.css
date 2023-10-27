@@ -12541,6 +12541,46 @@ input:focus {
   padding-top: 3px;
 }
 
+.focus-input100.whatsapp::after {
+	font-family: "FontAwesome";
+	content: "\f232";
+	color: #adadad;
+	font-size: 22px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	height: calc(100% - 20px);
+	bottom: 0;
+	left: 0;
+	padding-left: 13px;
+	padding-top: 3px;
+}
+
+.focus-input100.email::after {
+	font-family: "FontAwesome";
+	content: "\f0e0";
+	color: #adadad;
+	font-size: 22px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	height: calc(100% - 20px);
+	bottom: 0;
+	left: 0;
+	padding-left: 13px;
+	padding-top: 3px;
+}
+
 input {
   outline: none;
   border: none;

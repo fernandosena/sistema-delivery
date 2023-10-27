@@ -439,8 +439,8 @@ class Web extends Controller
                 return;
             }
 
-            if (in_array("", $data)) {
-                $json['message'] = $this->message->info("Informe seus dados para criar sua conta.")->render();
+            if($data["password"] != $data["repassword"]){
+                $json['message'] = $this->message->warning("As duas senhas devem ser iguais")->render();
                 echo json_encode($json);
                 return;
             }
