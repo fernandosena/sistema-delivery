@@ -4,8 +4,8 @@ if (strpos(url(), "localhost") !== false) {
      * CSS
      */
     $minCSS = new MatthiasMullie\Minify\CSS();
-    //$minCSS->add(__DIR__ . "/../../../shared/styles/styles.css");
-    //$minCSS->add(__DIR__ . "/../../../shared/styles/boot.css");
+    $minCSS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/fontawesome-free/css/all.min.css");
+    $minCSS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/overlayScrollbars/css/OverlayScrollbars.min.css");
 
     //theme CSS
     $cssDir = scandir(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/assets/css");
@@ -23,12 +23,15 @@ if (strpos(url(), "localhost") !== false) {
      * JS
      */
     $minJS = new MatthiasMullie\Minify\JS();
-    //$minJS->add(__DIR__ . "/../../../shared/scripts/jquery.min.js");
-    //$minJS->add(__DIR__ . "/../../../shared/scripts/jquery.form.js");
-    //$minJS->add(__DIR__ . "/../../../shared/scripts/jquery-ui.js");
-    //$minJS->add(__DIR__ . "/../../../shared/scripts/jquery.mask.js");
-    //$minJS->add(__DIR__ . "/../../../shared/scripts/highcharts.js");
-    //$minJS->add(__DIR__ . "/../../../shared/scripts/tracker.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/jquery/jquery.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/bootstrap/js/bootstrap.bundle.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/jquery-mousewheel/jquery.mousewheel.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/raphael/raphael.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/jquery-mapael/jquery.mapael.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/jquery-mapael/maps/usa_states.min.js");
+    $minJS->add(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/plugins/chart.js/Chart.min.js");
 
     //theme CSS
     $jsDir = scandir(__DIR__ . "/../../../themes/" . CONF_VIEW_APP . "/assets/js");

@@ -1,6 +1,6 @@
 <?php
 
-namespace Source\App;
+namespace Source\Main;
 
 use Source\Core\Controller;
 use Source\Core\Session;
@@ -41,11 +41,11 @@ class App extends Controller
             redirect("/entrar");
         }
 
-        (new Access())->report();
-        (new Online())->report();
+        //(new Access())->report();
+        //(new Online())->report();
 
-        (new AppWallet())->start($this->user);
-        (new AppInvoice())->fixed($this->user, 3);
+        //(new AppWallet())->start($this->user);
+        //(new AppInvoice())->fixed($this->user, 3);
 
         //UNCONFIRMED EMAIL
         if ($this->user->status != "confirmed") {
