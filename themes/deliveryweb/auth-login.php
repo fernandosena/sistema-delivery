@@ -12,7 +12,7 @@
                             <span class="label-input100">E-mail</span>
                             <input class="input100" type="email" name="email"
                             placeholder="Seu e-mail">
-                            <span class="focus-input100"></span>
+                            <span class="focus-input100 email"></span>
                         </div>
                         <div class="wrap-input100 validate-input">
                             <span class="label-input100">Senha</span>
